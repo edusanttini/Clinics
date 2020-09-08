@@ -11,7 +11,7 @@ Paciente::Paciente(string injury) {
 void Paciente::makeUserRegistration() {
 	cout << "\n\t\t----- Seja bem vindo, paciente -----\n";
 	Pessoa::getData();
-	cout << "Digite o tipo de machucado: \n";
+	cout << "Digite o sintoma: \n";
 	getline(cin, injuryType);
 	fflush(stdin);
 	//Todo -> Receber atributos restantes referentes ao obj paciente
@@ -19,13 +19,13 @@ void Paciente::makeUserRegistration() {
 
 void Paciente::printUserData() {
 	Pessoa::putData();
-	cout << "Tipo de comida: " << injuryType<< "\n";
+	cout << "Sintoma relatado: " << injuryType<< "\n";
 }
 
 void Paciente::makeAnAppointment() {
 	system("cls");
 	//Pessoa::getName();
-	cout << "\n\t\t----- bem vindo ao sistema de agendamento -----\n\n";
+	cout << "\n\t\t----- Bem vindo ao sistema de agendamento -----\n\n";
 	cout << "Especialidades da Clinics: \n";
 	system("pause");
 

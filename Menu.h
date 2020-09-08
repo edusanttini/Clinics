@@ -23,4 +23,7 @@ public:
 	bool isInputCorrect();
 	char getOption();
 	void test();
+
 };
+
+void logo();
