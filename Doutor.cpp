@@ -7,7 +7,7 @@ Doutor::Doutor() {
 void Doutor::getDoctorData() {
 	cout << "\n\t\t----- Seja bem vindo, doutor -----\n";
 	Pessoa::getData();
-	cout << "Digite o crm: \n";
+	cout << "Digite o crms: \n";
 	getline(cin, crm);
 }
 
